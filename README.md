@@ -122,7 +122,6 @@ Reasons:
 ---
 
 ## Limitations
-<img width="310" height="311" alt="image" src="https://github.com/user-attachments/assets/ab8d625c-3b84-4458-8259-ad914a40a10d" />
 
 - Small dataset (60 images) limits generalization
 - Difficulty distinguishing smoking from similar hand gestures (e.g., phone use)
