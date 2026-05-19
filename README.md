@@ -49,7 +49,6 @@ The model outputs bounding boxes and confidence scores for detected activities.
 
 ## Methodology
 
-### 1. Model Selection
 <img width="908" height="170" alt="image" src="https://github.com/user-attachments/assets/34845f57-4e67-45bf-bca5-8d3a8a4c7149" />
 
 YOLOv8 uses:
@@ -61,7 +60,7 @@ It also uses an **anchor-free detection mechanism**, simplifying training and im
 
 ---
 
-### 2. Dataset
+### 1. Dataset
 The dataset used is a **Smoker Detection Dataset**, consisting of:
 - 40 training images
 - 10 validation images
@@ -73,7 +72,7 @@ Each image is labeled with:
 
 ---
 
-### 3. Training Strategy
+### 2. Training Strategy
 To improve performance on a small dataset, the following techniques were applied:
 
 - Transfer learning using pretrained YOLOv8 weights
@@ -83,7 +82,7 @@ To improve performance on a small dataset, the following techniques were applied
 
 ---
 
-### 4. Detection Logic
+### 3. Detection Logic
 The system is designed for surveillance use cases:
 
 - High-confidence “Smoking” predictions trigger alerts
