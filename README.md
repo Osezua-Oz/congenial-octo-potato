@@ -50,7 +50,7 @@ The model outputs bounding boxes and confidence scores for detected activities.
 ## Methodology
 
 ### 1. Model Selection
-The project uses :contentReference[oaicite:0]{index=0} due to its balance of speed and accuracy in real-time detection tasks.
+<img width="908" height="170" alt="image" src="https://github.com/user-attachments/assets/34845f57-4e67-45bf-bca5-8d3a8a4c7149" />
 
 YOLOv8 uses:
 - backbone (feature extraction)
